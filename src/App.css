@@ -1,0 +1,162 @@
+.list-inline-item {
+
+  padding: 9px 16px;
+  /* veya istediğin boşluğu ayarla */
+}
+
+body {
+  font-family: Inter;
+}
+
+/* .container {
+  max-width: 1440px;
+} */
+
+.list {
+
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+  li {
+    list-style-type: none;
+    padding: 9px 16px;
+
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #5F6D7E;
+
+  }
+}
+
+.header {
+  margin-block: 16px;
+  padding-inline: 32px;
+}
+
+.container-left {
+  padding-inline: 16px;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  div {
+    padding: 12px;
+  }
+}
+
+.gap-0-75rem {
+  gap: 0.75rem;
+
+}
+
+.paddingb-0-75rem {
+  padding-block: 0.75rem;
+
+}
+
+.paddingi-0-75rem {
+  padding-inline: 0.75rem;
+
+}
+
+.container-middle-one {
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5F6D7E;
+
+}
+
+.form-one {
+  padding: 10px 12px;
+  margin-top: 32px;
+
+  input {
+    border: none;
+  }
+}
+
+.general {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5F6D7E;
+
+}
+
+.form-one-1::placeholder {
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #919BA7
+}
+
+.content {
+  padding: 12px 24px
+}
+
+.content-1 {
+  gap: 6px;
+}
+
+.content-span-1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #272D37;
+
+}
+
+.content-span-2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5F6D7E
+}
+
+.content-btns-1 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #272D37;
+  padding: 10px 22px;
+  border: 1px solid #DAE0E6;
+  box-shadow: 0px 1px 2px 0px #1018280A;
+
+}
+
+.content-btns-2 {
+  padding: 8px 28px;
+  background-color: #437EF7;
+  box-shadow: 0px 1px 2px 0px #1018280A;
+}
+
+.content-1-1 {
+  display: flex;
+  justify-content: space-between;
+}
