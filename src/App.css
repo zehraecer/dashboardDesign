@@ -113,7 +113,17 @@ body {
 }
 
 .content-1 {
-  gap: 6px;
+  display: flex;
+
+  span {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #272D37;
+
+  }
 }
 
 .content-span-1 {
@@ -147,6 +157,7 @@ body {
   padding: 10px 22px;
   border: 1px solid #DAE0E6;
   box-shadow: 0px 1px 2px 0px #1018280A;
+  padding: 8px 21px;
 
 }
 
@@ -154,9 +165,91 @@ body {
   padding: 8px 28px;
   background-color: #437EF7;
   box-shadow: 0px 1px 2px 0px #1018280A;
+  padding: 8px 29.4px;
 }
 
 .content-1-1 {
   display: flex;
   justify-content: space-between;
 }
+
+
+.cards {
+  margin-top: 24px;
+  padding: 16px 20px 0px 16px;
+  border: 1px solid #EAEBF0;
+  box-shadow: 0px 1px 2px 0px #1018280A;
+  border-radius: 10px;
+
+}
+
+.cards-1 {
+  margin-bottom: 16px;
+
+  span {
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #272D37;
+
+  }
+}
+
+.cards-span1 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #272D37;
+
+}
+
+
+.cards-2 {
+
+  margin-top: 12px;
+
+}
+
+.cards-2-span1 {
+
+  padding: 2px 8px;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  border-radius: 5px;
+  white-space: nowrap;
+  /* Metnin satır başına geçmesini önler */
+  overflow: hidden;
+}
+
+.cards-2-span2 {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5F6D7E;
+  margin-left: 8px;
+  white-space: nowrap;
+  /* Metnin satır başına geçmesini önler */
+  overflow: hidden;
+}
+
+/* 
+@media (width >=1280px) {
+  .content-btns-1 {
+    padding: ;
+  }
+
+} */
