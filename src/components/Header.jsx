@@ -67,7 +67,7 @@ export const Header = () => {
 
                 <div className="d-none d-sm-flex gap-1 align-items-center ">
                     <div>
-                        <img src="Avatar.svg" />
+                        <img src="Avatar1.svg" />
                     </div>
                     <div className="d-flex flex-column  ">
                         <span className="text-primary-emphasis fw-semibold">Cristopher Calzoni</span>

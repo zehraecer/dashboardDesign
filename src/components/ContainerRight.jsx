@@ -1,5 +1,8 @@
+import { ContentFive } from "./ContentFive"
 import { ContentFour } from "./ContentFour"
 import { ContentOne } from "./ContentOne"
+import { ContentSeven } from "./ContentSeven"
+import { ContentSix } from "./ContentSix"
 import { ContentThere } from "./ContentThere"
 import { ContentTwo } from "./ContentTwo"
 
@@ -11,6 +14,9 @@ export const ContainerRight = () => {
             <ContentTwo />
             <ContentThere />
             <ContentFour />
+            <ContentFive />
+            <ContentSix />
+            <ContentSeven />
         </div>
     )
 }
