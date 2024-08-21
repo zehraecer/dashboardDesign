@@ -17,11 +17,11 @@ export const ContentTwo = () => {
     ]
 
     return (
-        <div >
+        <div className='d-flex flex-wrap gap-3 justify-content-center w-100'>
             {cardArray.map((card, index) => {
 
                 return (
-                    <div key={index} className=' cards  w-100' style={{ maxWidth: "314px" }}>
+                    <div key={index} className=' cards  col-12 col-md-6 col-lg-4 w-100' style={{ maxWidth: "314px" }}>
                         <div className='d-flex justify-content-between cards-1'>
                             <span>{card.name}</span>
                             <img src="three-dots.svg" alt="" />

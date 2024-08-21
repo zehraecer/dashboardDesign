@@ -1,7 +1,7 @@
 export const ContainerMiddle = () => {
 
     return (
-        <div className="d-none d-lg-flex">
+        <div style={{ borderInline: "1px solid #EAEBF0" }} className="d-none d-lg-flex">
             <div className="d-flex flex-column align-items-start" style={{ paddingInline: "28px" }}>
                 <div className="d-flex justify-content-center  gap-0-75rem paddingb-0-75rem">
                     <img src="arrowleft.svg" alt="" />
@@ -16,7 +16,7 @@ export const ContainerMiddle = () => {
                     <div><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /></div>
                     <div><span className="general">General</span> </div>
                 </div>
-                <div className="d-flex  paddingb-0-75rem " style={{ gap: "115px" }}>
+                <div className="d-flex justify-content-between  paddingb-0-75rem w-100 " >
                     <div className="d-flex  gap-0-75rem">
                         <div><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /></div>
                         <div >
