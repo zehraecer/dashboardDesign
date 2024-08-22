@@ -10,7 +10,7 @@ function App() {
 
   return (
     <MyContext.Provider>
-      <div >
+      <div  >
         <DashboardWrapper />
       </div>
     </MyContext.Provider>

@@ -15,7 +15,7 @@ export const Header = () => {
                         <li>Settings</li>
                     </div>
                 </div>
-                <div className="d-block d-sm-none">
+                <div className="d-block d-md-none">
                     <nav className="navbar bg-body-tertiary fixed-top">
                         <div className="container-fluid">
                             <img src="Lookscout.svg" alt="" />
