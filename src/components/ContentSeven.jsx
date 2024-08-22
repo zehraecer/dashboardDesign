@@ -59,13 +59,13 @@ export const ContentSeven = () => {
                             </div>
                         </div>
                     ))}
-                </div>
 
-                <div className='content-6-btns content-3-3'>
-                    <span>Open <img src="sendIcon.svg" /></span>
                 </div>
-
             </div>
+            <div className='content-6-btns content-3-3'>
+                <span>Open <img src="sendIcon.svg" /></span>
+            </div>
+
         </div>
     )
 }

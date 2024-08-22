@@ -65,7 +65,7 @@ export const Header = () => {
                     </nav>
                 </div>
 
-                <div className="d-none d-sm-flex gap-1 align-items-center ">
+                <div className="d-none d-md-flex gap-1 align-items-center ">
                     <div>
                         <img src="Avatar1.svg" />
                     </div>

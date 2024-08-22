@@ -62,8 +62,8 @@ export const ContentFive = () => {
                         </div>
                     ))}
                 </div>
-            </div>
 
+            </div>
             <div>
                 <div className="content-5-btn w-100">
                     <button class=" " type="button">View all</button>

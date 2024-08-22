@@ -67,7 +67,7 @@ export const ContainerMiddle = () => {
 
 
 
-            {/* <div className="d-flex flex-column ">
+            <div className="d-flex flex-column ">
 
                 <div className="d-flex justify-content-between w-100">
 
@@ -88,7 +88,7 @@ export const ContainerMiddle = () => {
                     <span className="middle-span3">Your Subscription plan will expire soon please upgrade!</span>
                     <span className="middle-span4">Upgrade</span>
                 </div>
-            </div> */}
+            </div>
         </div>
 
     )

@@ -23,7 +23,7 @@ export const ContainerRight = () => {
                 <div>
                     <ContentFour />
                 </div>
-                <div className="d-flex flex-column flex-md-row justify-content-between align-items-center gap-1 w-100">
+                <div className="d-flex flex-column flex-md-row justify-content-center align-items-start gap-1 w-100">
                     <div className="w-100"> <ContentFive /></div>
                     <div className="w-100">  <ContentSix /></div>
                     <div className="w-100"><ContentSeven /></div>
