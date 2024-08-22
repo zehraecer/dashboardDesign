@@ -3,7 +3,7 @@ import { Data1 } from "../data/data1"
 export const ContentFive = () => {
 
     return (
-        <div>
+        <div className="w-100">
             {/* <div className="content-5">
                 <div className="d-flex justify-content-between content-5-5">
                     <span>Lookscout Team</span>
@@ -37,7 +37,7 @@ export const ContentFive = () => {
             </div> */}
 
 
-            <div className="content-5">
+            <div className="content-5 w-100">
                 <div className="d-flex justify-content-between content-5-5">
                     <span>Lookscout Team</span>
                     <img src="three-dots.svg" alt="" />

@@ -35,7 +35,7 @@ export const ContentSeven = () => {
             </div > */}
 
 
-            <div className="content-7 mt-2">
+            <div className="content-7 mt-2 w-100">
                 <div className="d-flex justify-content-between content-5-5">
                     <span>Updated Materials</span>
                     <img src="three-dots.svg" alt="" />
@@ -61,11 +61,11 @@ export const ContentSeven = () => {
                     ))}
                 </div>
 
-            </div>
-            <div className='content-6-btns content-3-3'>
-                <span>Open <img src="sendIcon.svg" /></span>
-            </div>
+                <div className='content-6-btns content-3-3'>
+                    <span>Open <img src="sendIcon.svg" /></span>
+                </div>
 
+            </div>
         </div>
     )
 }

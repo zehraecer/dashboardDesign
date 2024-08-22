@@ -9,7 +9,7 @@ import { ContentTwo } from "./ContentTwo"
 export const ContainerRight = () => {
 
     return (
-        <div className="content ">
+        <div className="content w-100 ">
             <div className=" w-100 ">
                 <ContentOne />
             </div>
@@ -19,24 +19,14 @@ export const ContainerRight = () => {
             <div className=" w-100 ">
                 <ContentThere />
             </div>
-            {/* <div className=" w-100 ">
-                <ContentFour />
-                <div className="d-flex flex-column flex-md-row justify-content-between align-items-center gap-1">
-                    <div> <ContentFive /></div>
-                    <div>  <ContentSix /></div>
-                    <div><ContentSeven /></div>
-
-
-
+            <div className="w-100">
+                <div>
+                    <ContentFour />
                 </div>
-            </div> */}
-
-            <div>
-                <ContentFour />
-                <div className="d-flex flex-column flex-md-row justify-content-between align-items-center gap-1">
-                    <div> <ContentFive /></div>
-                    <div>  <ContentSix /></div>
-                    <div><ContentSeven /></div>
+                <div className="d-flex flex-column flex-md-row justify-content-between align-items-center gap-1 w-100">
+                    <div className="w-100"> <ContentFive /></div>
+                    <div className="w-100">  <ContentSix /></div>
+                    <div className="w-100"><ContentSeven /></div>
                 </div>
             </div>
         </div>

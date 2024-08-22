@@ -3,7 +3,7 @@ import { Data2 } from "../data/data2"
 export const ContentSix = () => {
 
     return (
-        <div>
+        <div className="w-100">
             {/* <div className="content-6 mt-2">
                 <div className="d-flex justify-content-between content-5-5">
                     <span>Updated Materials</span>
@@ -31,7 +31,7 @@ export const ContentSix = () => {
                     <button type="button" class="btn btn-primary content-6-btn2">Upload</button>
                 </div>
             </div> */}
-            <div className="content-6 mt-2">
+            <div className="content-6 mt-2 w-100">
                 <div className="d-flex justify-content-between content-5-5">
                     <span>Updated Materials</span>
                     <img src="three-dots.svg" alt="" />

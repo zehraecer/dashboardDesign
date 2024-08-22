@@ -7,7 +7,7 @@ export const DashboardWrapper = () => {
 
     return (
 
-        <div>
+        <div className="w-100">
             <div>
                 <Header />
 
@@ -20,7 +20,7 @@ export const DashboardWrapper = () => {
 
                     <ContainerMiddle />
                 </div>
-                <div className="w-100" style={{ backgroundColor: "#fafbfc" }}>
+                <div className="w-100" >
                     <ContainerRight />
                 </div>
 
