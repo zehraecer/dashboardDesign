@@ -9,7 +9,7 @@ export const ContainerMiddle = () => {
     }, [])
 
     return (
-        <div className="d-none d-lg-flex flex-column align-content-between h-100" style={{ paddingInline: "28px", borderInline: "1px solid #EAEBF0" }}>
+        <div className="d-none d-lg-flex flex-column align-content-between left-heigth " style={{ paddingInline: "28px", borderInline: "1px solid #EAEBF0" }}>
 
             <div >
                 <div className="d-flex flex-column align-items-start" >
@@ -64,9 +64,6 @@ export const ContainerMiddle = () => {
 
                 </div>
             </div>
-
-
-
             <div className="d-flex flex-column ">
 
                 <div className="d-flex justify-content-between w-100">

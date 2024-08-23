@@ -1,7 +1,6 @@
 .list-inline-item {
 
   padding: 9px 16px;
-  /* veya istediğin boşluğu ayarla */
 }
 
 html,
@@ -27,7 +26,6 @@ body {
   li {
     list-style-type: none;
     padding: 9px 16px;
-
     font-size: 15px;
     font-weight: 500;
     line-height: 22px;
@@ -45,6 +43,11 @@ body {
 
 .container-left {
   padding-inline: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  /* Tam ekran yüksekliği */
 
   img {
     width: 24px;
@@ -69,6 +72,11 @@ body {
 .paddingi-0-75rem {
   padding-inline: 0.75rem;
 
+}
+
+.left-heigth {
+  height: 100vh;
+  overflow: hidden;
 }
 
 .container-middle-one {
@@ -162,7 +170,7 @@ body {
 }
 
 .content {
-  padding: 12px 24px
+  padding: 12px 24px;
 }
 
 .content-1 {
@@ -561,7 +569,7 @@ body {
 
 
 
-@media (max-width < 1079px) {
+@media (max-width < 1024px) {
   .cards {
     margin-top: 24px;
     padding: 5px;
@@ -577,4 +585,15 @@ body {
     font-size: 20px;
   }
 
+  /* .zehra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
+
 }
+
+/* 
+.dark-mode {
+  background-color: #437EF7;
+} */

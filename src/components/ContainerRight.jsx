@@ -9,7 +9,7 @@ import { ContentTwo } from "./ContentTwo"
 export const ContainerRight = () => {
 
     return (
-        <div className="content w-100 ">
+        <div className="content w-100 " style={{ backgroundColor: "fafbfc" }}>
             <div className=" w-100 ">
                 <ContentOne />
             </div>
@@ -23,11 +23,23 @@ export const ContainerRight = () => {
                 <div>
                     <ContentFour />
                 </div>
-                <div className="d-flex flex-column flex-md-row justify-content-center align-items-start gap-1 w-100">
-                    <div className="w-100"> <ContentFive /></div>
-                    <div className="w-100">  <ContentSix /></div>
-                    <div className="w-100"><ContentSeven /></div>
+
+
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <ContentFive />
+
+                        </div>
+                        <div class="col">
+                            <ContentSix />
+                        </div>
+                        <div class="col">
+                            <ContentSeven />
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     )
