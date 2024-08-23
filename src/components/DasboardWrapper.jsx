@@ -15,7 +15,7 @@ export const DashboardWrapper = () => {
         <div className="d-flex flex-column w-100 h-100">
             <Header />
             <div className="d-flex flex-grow-1 overflow-hidden">
-                <div style={{ borderRight: "1px solid #EAEBF0" }}>
+                <div className='left-wrapper'>
                     <ContainerLeft onLogoClick={handleLogoClick} />
                 </div>
                 <div className={`d-flex ${showMiddle ? 'flex-grow-1' : ''} h-100 overflow-auto`} style={{ transition: 'width 1.3s ease' }}>

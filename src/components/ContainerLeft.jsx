@@ -12,14 +12,12 @@ export const ContainerLeft = ({ onLogoClick }) => {
     useEffect(() => {
         if (isClicked) {
             document.body.classList.add('dark-mode');
-            document.body.classList.remove('light-mode');
         } else {
-            document.body.classList.add('light-mode');
             document.body.classList.remove('dark-mode');
         }
     }, [isClicked]);
     return (
-        <div className="d-none d-flex flex-column justify-content-between align-content-between container-left gap-1 d-lg-flex left-heigth">
+        <div className="d-none d-flex flex-column justify-content-between align-content-between container-left gap-1 d-lg-flex left-heigth middle-mode">
             <div>
                 <div>
                     <img

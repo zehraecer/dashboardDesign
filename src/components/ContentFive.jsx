@@ -9,8 +9,8 @@ export const ContentFive = () => {
         <>
             <div className="content-5 w-100">
                 <div className="d-flex justify-content-between content-5-5">
-                    <span>Lookscout Team</span>
-                    <img src="three-dots.svg" alt="" />
+                    <span className="content-7-span1">Lookscout Team</span>
+                    <div className="three-dots">...</div>
                 </div>
                 <div>
                     {Data1.map((data, index) => (

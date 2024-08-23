@@ -1,8 +1,8 @@
 export const ContentFour = () => {
 
     return (
-        <div className="d-flex flex-column flex-sm-row justify-content-between  content-4 ">
-            <span>Brian Ford</span>
+        <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center content-4 ">
+            <span className="content-4-span1">Brian Ford</span>
             <div className="d-flex justify-content-between mt-1 ">
                 <div className="d-flex gap-1">
                     <button type="button" className="btn btn-outline-secondary content-btns-1">Edit section</button>

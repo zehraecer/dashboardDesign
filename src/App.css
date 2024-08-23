@@ -1,3 +1,185 @@
+/* Light Mode */
+body {
+  --content-right-dark: #151b28;
+  --content-right-light: #fafbfc;
+  --gunmetal: #1c2534;
+  --middle-content-borderD: #2e3745;
+  --middle-content-borderL: #eaebf0;
+  --slategray: #2c3444;
+  --blue: #437EF7;
+  --white: #fff;
+  --lightgrey: #A5ACBA
+}
+
+@media (prefers-color-scheme: light) {
+
+  body.dark-mode {
+
+    .content-right-mode {
+      background-color: var(--content-right-dark);
+      /* Light mode için içerik arka plan rengi */
+    }
+
+    .left-wrapper {
+      background-color: var(--gunmetal);
+    }
+
+    .middle-mode {
+      background-color: var(--gunmetal);
+      border-right: 1px solid var(--middle-content-borderD) !important;
+      border-left: 1px solid var(--middle-content-borderD) !important;
+
+    }
+
+    .form-one-1 {
+      background-color: var(--slategray);
+    }
+
+    .form-one {
+      background-color: var(--slategray);
+      border: none !important;
+
+    }
+
+    .rounded-5 {
+      background-color: var(--blue) !important;
+      color: #fff;
+    }
+
+    .content-span-1 {
+      color: var(--white);
+    }
+
+    .content-span-2 {
+      color: var(--lightgrey);
+    }
+
+    .asdas {
+      background-color: var(--slategray);
+      border: 1px solid #2E3545;
+      box-shadow: 0px 1px 2px 0px #1018280A;
+
+    }
+
+    .cards {
+      background-color: var(--gunmetal);
+      border: 1px solid #252D3C;
+      box-shadow: 0px 1px 2px 0px #1018280A;
+
+    }
+
+    .content-2-name,
+    .cards-span1 {
+      color: var(--white);
+    }
+
+    #cart5 {
+      background-color: var(--gunmetal);
+    }
+
+    .content-3 {
+      border: none;
+      background-color: var(--gunmetal);
+    }
+
+    .content-3-span {
+      color: var(--white);
+    }
+
+    .content-3-1 {
+      border-bottom: 1px solid var(--middle-content-borderD);
+    }
+
+    .content-3-3 {
+      border-top: 1px solid var(--middle-content-borderD);
+    }
+
+    .content-4-span1 {
+      color: var(--white);
+    }
+
+    .content-btns-1 {
+      background-color: var(--slategray);
+      color: var(--white);
+      border: 1px solid #2E3545;
+      box-shadow: 0px 1px 2px 0px #1018280A;
+
+    }
+
+    .content-5,
+    .content-6,
+    .content-7 {
+      background-color: var(--gunmetal);
+      border: 1px solid #252D3C;
+    }
+
+    .content-6-btns,
+    .content-7-btns,
+    .content-5-btn {
+      background-color: var(--gunmetal);
+      border-right: 1px solid #252D3C;
+      border-bottom: 1px solid #252D3C;
+      border-left: 1px solid #252D3C;
+    }
+
+    .border-bottom {
+      border-bottom: 1px solid #2e3545 !important;
+    }
+
+    .content-5-3,
+    .content-7-span1 {
+      color: var(--white);
+    }
+
+    .Online {
+      background-color: #2C3444;
+    }
+
+    .Label {
+      background-color: #2C3444;
+      color: var(--white);
+    }
+
+    .three-dots {
+      color: var(--white);
+    }
+
+
+  }
+
+  .content-right-mode {
+    background-color: var(--content-right-light);
+
+  }
+
+
+
+}
+
+
+
+
+.three-dots {
+  font-size: 20px;
+  font-weight: 700;
+  color: #5F6D7E;
+}
+
+/* .apexcharts-tooltip {
+  font-size: 12px !important;
+  color: #ec5656 !important;
+}
+
+.apexcharts-xaxis-label,
+.apexcharts-yaxis-label {
+  font-size: 12px !important;
+  color: #555555 !important;
+} */
+
+#cart5 {
+  border: none;
+}
+
 .list-inline-item {
 
   padding: 9px 16px;
@@ -77,6 +259,12 @@ body {
 .left-heigth {
   height: 100vh;
   overflow: hidden;
+}
+
+.middle-mode {
+
+  border-right: 1px solid var(--middle-content-borderL);
+  border-left: 1px solid var(--middle-content-borderL);
 }
 
 .container-middle-one {
@@ -409,11 +597,15 @@ body {
 }
 
 .Label {
+  padding: 2px 8px;
+  border-radius: 5px;
   color: #272D37;
   background-color: #F7F7F8;
 }
 
 .Online {
+  padding: 2px 8px;
+  border-radius: 5px;
   color: #437EF7;
   background-color: #F5FAFF;
 }

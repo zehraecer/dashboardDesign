@@ -9,8 +9,8 @@ export const ContentSeven = () => {
         <>
             <div className="content-7 mt-2 w-100">
                 <div className="d-flex justify-content-between content-5-5">
-                    <span>Updated Materials</span>
-                    <img src="three-dots.svg" alt="" />
+                    <span className="content-7-span1">Recent Transactions</span>
+                    <div className="three-dots">...</div>
                 </div>
 
                 <div>

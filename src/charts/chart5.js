@@ -27,6 +27,13 @@ export function renderChart5(elementId) {
         colors: ['#437EF7', '#5CB1FF'],
         xaxis: {
             categories: ['Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar'],
+            labels: {
+                style: {
+                    colors: '#a5acba', // Ay isimleri için renk
+                    fontSize: '12px',
+                    fontFamily: 'Helvetica, Arial, sans-serif'
+                }
+            }
         },
         yaxis: {
             min: 0,
@@ -37,16 +44,27 @@ export function renderChart5(elementId) {
                     const customLabels = ['0%', '25%', '50%', '75%', '100%'];
                     const index = Math.round((value / 100) * 4);
                     return customLabels[index] || '';
+                },
+                style: {
+                    colors: '#a5acba', // Yüzde etiketleri için renk
+                    fontSize: '12px',
+                    fontFamily: 'Helvetica, Arial, sans-serif'
                 }
             }
         },
-        fill: {
-            opacity: 1
+        grid: {
+            borderColor: '#2e3545', // Grid çizgilerinin rengini ayarlar
+            strokeDashArray: 4 // Noktalı çizgi için
         },
         legend: {
             position: 'top',
             horizontalAlign: 'right',
-            offsetY: -10
+            offsetY: -10,
+            labels: {
+                colors: '#a5acba', // Legend üzerindeki yazıların rengi
+                fontSize: '14px',
+                fontFamily: 'Helvetica, Arial, sans-serif'
+            }
         },
         dataLabels: {
             enabled: false
