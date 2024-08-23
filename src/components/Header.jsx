@@ -1,5 +1,5 @@
 
-export const Header = () => {
+export const Header = ({ mood, isClicked }) => {
 
 
 
@@ -12,16 +12,20 @@ export const Header = () => {
                         <img src="Lookscout.svg" alt="" />
 
                         <div className="d-flex justify-content-center align-items-center gap-3">
-
-                            <button
-                                className="navbar-toggler"
-                                type="button"
-                                data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasNavbar"
-                                aria-controls="offcanvasNavbar"
-                                aria-label="Toggle navigation">
-                                <img src="hamburgerMenu.svg" alt="" />
-                            </button>
+                            <div>
+                                <div className="d-flex justify-content-center align-items-center gap-3">
+                                    <img onClick={mood} src={isClicked ? "moon.svg" : "sun.svg"} alt="" />
+                                    <button
+                                        className="navbar-toggler"
+                                        type="button"
+                                        data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasNavbar"
+                                        aria-controls="offcanvasNavbar"
+                                        aria-label="Toggle navigation">
+                                        <img src="hamburgerMenu.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                         <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                             <div className="offcanvas-header">

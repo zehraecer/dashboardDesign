@@ -8,7 +8,7 @@ export const ContentOne = () => {
                     <img src="left.svg" />
                 </div>
                 <div>
-                    <span>Back</span>
+                    <span className="content-1-back">Back</span>
                 </div>
             </div>
             <div className="d-flex flex-column  flex-sm-row justify-content-between w-100"  >
@@ -27,9 +27,10 @@ export const ContentOne = () => {
                             <button type="button" className="btn btn-primary asdasa  ">Add item</button>
                         </div>
                     </div>
-                    <div className="d-block d-sm-none" style={{ padding: "7px 11px", border: "1px solid #DAE0E6", borderRadius: "5px", color: "#5F6D7E" }} >
+                    <div className="d-block d-sm-none content-1-dots" >
 
-                        <img src="three-dots.svg" alt="" />
+                        <div className="three-dots">...</div>
+
                     </div>
 
                 </div>

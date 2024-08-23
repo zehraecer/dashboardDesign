@@ -9,7 +9,7 @@ export const ContainerMiddle = () => {
     }, [])
 
     return (
-        <div className="d-none d-lg-flex flex-column align-content-between left-heigth  middle-mode " style={{ paddingInline: "28px", }}>
+        <div className="d-none d-lg-flex flex-column justify-content-between align-content-between left-heigth middle-mode h-100 " style={{ paddingInline: "28px", }}>
 
             <div >
                 <div className="d-flex flex-column align-items-start" >
@@ -64,22 +64,26 @@ export const ContainerMiddle = () => {
 
                 </div>
             </div>
-            <div className="d-flex flex-column ">
 
-                <div className="d-flex justify-content-between w-100">
 
-                    <div className="d-flex">
+            <div className="d-flex flex-column pt-3 ">
+                <div className="d-flex justify-content-between align-items-center w-100">
+
+                    <div className="d-flex justify-content-center align-items-center gap-2">
                         <img src="Avatar1.svg" alt="" />
-                        <span>Brian Ford</span>
+                        <span className="middle-span-3">Brian Ford</span>
                     </div>
 
-                    <div><img src="three-dots.svg" alt="" /></div>
+                    <div className="three-dots">...</div>
                 </div>
 
                 <div className="d-flex flex-column middle-div1">
-                    <div className="d-flex">
-                        <div id="cart6"></div>
+                    <div className="d-flex justify-content-end">
                         <span className="middle-span1">X</span>
+                    </div>
+
+                    <div className="d-flex justify-content-left">
+                        <div style={{ width: "145px", height: "65px" }} id="cart6"></div>
                     </div>
                     <span className="middle-span2">Subscription Plan</span>
                     <span className="middle-span3">Your Subscription plan will expire soon please upgrade!</span>

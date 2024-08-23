@@ -1,24 +1,11 @@
-import { useState, useEffect } from "react"
 
-export const ContainerLeft = ({ onLogoClick }) => {
+export const ContainerLeft = ({ onLogoClick, mood, isClicked }) => {
 
-    const [isClicked, setisClicked] = useState(false)
 
-    const mood = () => {
-        setisClicked(!isClicked)
-        console.log(isClicked);
-    }
-
-    useEffect(() => {
-        if (isClicked) {
-            document.body.classList.add('dark-mode');
-        } else {
-            document.body.classList.remove('dark-mode');
-        }
-    }, [isClicked]);
     return (
-        <div className="d-none d-flex flex-column justify-content-between align-content-between container-left gap-1 d-lg-flex left-heigth middle-mode">
-            <div>
+
+        <div className="d-none d-flex flex-column justify-content-between align-content-between container-left gap-1 d-lg-flex left-heigth middle-mode h-100">
+            <div >
                 <div>
                     <img
                         style={{ width: "26px", height: "30px", cursor: "pointer" }}
@@ -39,5 +26,6 @@ export const ContainerLeft = ({ onLogoClick }) => {
                 <div><img src="icon2.svg" alt="" /></div>
             </div>
         </div>
+
     );
 }

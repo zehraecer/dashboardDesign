@@ -24,7 +24,7 @@ export const ContentTwo = () => {
                     <div key={index} className=' cards  col-12  col-md-4 w-100'>
                         <div className='d-flex justify-content-between cards-1'>
                             <span className='content-2-name'>{card.name}</span>
-                            <img src="three-dots.svg" alt="" />
+                            <div className="three-dots">...</div>
                         </div>
                         <div className='d-flex  align-items-center'>
                             <div >
