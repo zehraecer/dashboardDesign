@@ -15,18 +15,18 @@ export function renderChart6(elementId) {
                 },
                 dataLabels: {
                     name: {
-                        show: false, // Etiket adını gizler
+                        show: false,
                     },
                     value: {
-                        show: true,  // Yüzde değerini gösterir
-                        fontSize: '16px', // Yazı boyutunu ayarlayın (küçültülmüş boyut)
-                        color: '#437EF7',  // Yazı rengini mavi (#437EF7) yapar
-                        offsetY: 5,       // Yatay hizayı ayarlayın
+                        show: true,
+                        fontSize: '16px',
+                        color: '#437EF7',
+                        offsetY: 5,
                     }
                 },
             },
         },
-        labels: [], // Dışta yazı olmaması için boş bırakın
+        labels: [],
     };
 
     const chart = new ApexCharts(document.querySelector(`#${elementId}`), options);
