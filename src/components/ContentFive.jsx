@@ -1,7 +1,4 @@
 import { Data1 } from "../data/data1"
-import { Data3 } from "../data/data3.js"
-import { Data2 } from "../data/data2"
-
 
 export const ContentFive = ({ isClicked }) => {
 
@@ -32,7 +29,6 @@ export const ContentFive = ({ isClicked }) => {
                         </div>
                     ))}
                 </div>
-
             </div>
             <div>
                 <div className="content-5-btn w-100">

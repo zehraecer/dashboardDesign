@@ -1,7 +1,4 @@
-
 export const ContainerLeft = ({ onLogoClick, mood, isClicked }) => {
-
-
     return (
 
         <div className="d-none d-flex flex-column justify-content-between align-content-between container-left gap-1 d-lg-flex left-heigth middle-mode h-100">
@@ -19,6 +16,5 @@ export const ContainerLeft = ({ onLogoClick, mood, isClicked }) => {
                 <div><img src="icon2.svg" alt="" /></div>
             </div>
         </div>
-
     );
 }

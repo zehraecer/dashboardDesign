@@ -65,7 +65,6 @@ export const ContainerMiddle = () => {
                 </div>
             </div>
 
-
             <div className="d-flex flex-column pt-3 ">
                 <div className="d-flex justify-content-between align-items-center w-100">
 

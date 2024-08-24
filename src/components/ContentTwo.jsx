@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import { renderChart1 } from '../charts/chart1';  // 'chart.js' dosyasını uygun path ile import et
+import { renderChart1 } from '../charts/chart1';
 import { renderChart2 } from '../charts/chart2';
 import { renderChart3 } from '../charts/chart3';
 
 export const ContentTwo = () => {
     useEffect(() => {
-        renderChart1('cart1');  // 'myChart' id'li elementi hedefle
+        renderChart1('cart1');
         renderChart2('cart2');
         renderChart3('cart3')
     }, []);
@@ -39,7 +39,6 @@ export const ContentTwo = () => {
                     </div>
                 )
             })}
-
         </div>
     );
 };

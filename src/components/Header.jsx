@@ -1,16 +1,10 @@
-
 export const Header = ({ mood, isClicked }) => {
-
-
-
     return (
         <>
-
             <div className="d-block d-lg-none">
                 <nav className="navbar bg-body-tertiary fixed-top mobile-mode">
                     <div className="container-fluid">
                         <img src={isClicked ? "lookscout-white.svg" : "Lookscout.svg"} />
-
                         <div className="d-flex justify-content-center align-items-center gap-3 ">
                             <div>
                                 <div className="d-flex justify-content-center align-items-center gap-3">
@@ -89,9 +83,6 @@ export const Header = ({ mood, isClicked }) => {
                     </div>
                 </nav>
             </div>
-
-
-
         </>
     )
 }

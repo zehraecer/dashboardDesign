@@ -4,18 +4,15 @@ import { renderChart5 } from "../charts/chart5.js"
 export const ContentThere = () => {
 
     useEffect(() => {
-
         renderChart4("cart4")
     }, [])
 
+
     useEffect(() => {
-
-
         renderChart5("cart5")
     }, [])
 
     return (
-
         <div className='content-3 d-flex flex-column justify-content-center'>
             <div className='d-flex justify-content-between align-items-center content-3-1'>
                 <span className="d-block d-md-none content-3-span">Revenue</span>

@@ -1,7 +1,6 @@
 export const ContentOne = ({ isClicked }) => {
 
     return (
-
         <div className="d-flex flex-column align-items-start mt-5  w-100">
             <div className="content-1 d-flex justify-content-center align-items-center d-block d-md-none">
                 <div style={{ padding: "5px 7px" }}>
@@ -28,20 +27,15 @@ export const ContentOne = ({ isClicked }) => {
                 <div className="d-flex mt-1 justify-content-between ">
                     <div className=" d-flex  w-100 gap-1 ">
                         <div>
-
                             <button type="button" className="btn btn-outline-secondary asdas ">Edit section</button>
                         </div>
                         <div>
-
                             <button type="button" className="btn btn-primary asdasa  ">Add item</button>
                         </div>
                     </div>
                     <div className="d-block d-sm-none content-1-dots" >
-
                         <div className="three-dots">...</div>
-
                     </div>
-
                 </div>
             </div>
         </div>

@@ -1,10 +1,6 @@
-import { useEffect } from "react"
 import { Data3 } from "../data/data3.js"
 
-
 export const ContentSeven = () => {
-
-
     return (
         <>
             <div className="content-7 mt-2 w-100">
@@ -12,7 +8,6 @@ export const ContentSeven = () => {
                     <span className="content-7-span1">Recent Transactions</span>
                     <div className="three-dots">...</div>
                 </div>
-
                 <div>
                     {Data3.map((data, index) => (
                         <div key={index} className={`d-flex justify-content-between align-items-center content-5-1 ${data.border}`} >
@@ -31,7 +26,6 @@ export const ContentSeven = () => {
                             </div>
                         </div>
                     ))}
-
                 </div>
             </div>
             <div className='content-6-btns content-3-3'>

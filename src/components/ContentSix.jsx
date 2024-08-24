@@ -1,10 +1,8 @@
 import { Data2 } from "../data/data2"
 
 export const ContentSix = ({ isClicked }) => {
-
     return (
         <>
-
             <div className="content-6 mt-2 w-100">
                 <div className="d-flex justify-content-between content-5-5">
                     <span className="content-7-span1">Updated Materials</span>

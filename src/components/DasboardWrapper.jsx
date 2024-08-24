@@ -21,8 +21,6 @@ export const DashboardWrapper = () => {
         }
     }, [isClicked]);
 
-
-
     const handleLogoClick = () => {
         setShowMiddle(!showMiddle);
     };

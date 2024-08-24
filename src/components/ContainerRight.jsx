@@ -25,7 +25,6 @@ export const ContainerRight = ({ isClicked }) => {
                     <div class="row  justify-content-center align-items-center gap-2">
                         <div class="col" style={{ paddingRight: "0", paddingLeft: "0" }}>
                             <ContentFive isClicked={isClicked} />
-
                         </div>
                         <div class="col" style={{ paddingRight: "0", paddingLeft: "0" }}>
                             <ContentSix isClicked={isClicked} />
@@ -35,7 +34,6 @@ export const ContainerRight = ({ isClicked }) => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     )
