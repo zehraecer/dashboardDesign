@@ -21,14 +21,14 @@ export const ContentTwo = () => {
             {cardArray.map((card, index) => {
 
                 return (
-                    <div key={index} className=' cards  col-12  col-md-4 w-100'>
+                    <div style={{ maxWidth: "327px" }} key={index} className=' cards  col-12  col-md-4 w-100'>
                         <div className='d-flex justify-content-between cards-1'>
                             <span className='content-2-name'>{card.name}</span>
                             <div className="three-dots">...</div>
                         </div>
                         <div className='d-flex  align-items-center'>
                             <div >
-                                <span className='cards-span1'>{card.price}</span>
+                                <span className='cards-span1'> ${card.price}</span>
                                 <div className=' cards-2 w-100'>
                                     <span style={{ color: `${card.color}`, backgroundColor: `${card.bgColor}` }} className='cards-2-span1'>{card.btn}</span>
                                     <span className='cards-2-span2'>monthly growth</span>

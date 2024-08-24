@@ -15,27 +15,27 @@ export function renderChart4(elementId) {
             },
         ],
         chart: {
-            height: 232,
-            width: 287,
+            height: '100%',
+            width: '100%',
             type: 'bar',
             toolbar: {
                 show: false,
             },
-            offsetX: -30,
+            offsetX: 0,  // Ortalamak için offsetX sıfırlandı
             offsetY: 0,
         },
         plotOptions: {
             bar: {
                 horizontal: false,
-                columnWidth: '70%',
-                barGap: '40%',
+                columnWidth: '50%', // Daraltarak ortalamayı kolaylaştırır
+                barGap: '0%', // Çubuklar arasında boşluk bırakmaz
             },
         },
         dataLabels: {
             enabled: false,
         },
         xaxis: {
-            categories: [],
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],  // Kategoriler eklenerek hizalama sağlanır
             labels: {
                 show: false,
             },

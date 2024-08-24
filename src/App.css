@@ -186,6 +186,13 @@ body {
       background-color: #F04438;
       color: #FFF2F0;
     }
+
+    .content-6-btn1 {
+      color: var(--white);
+      box-shadow: 0px 1px 2px 0px #1018280A;
+      border: 1px solid #2E3545 !important;
+
+    }
   }
 }
 
