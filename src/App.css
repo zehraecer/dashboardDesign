@@ -193,7 +193,20 @@ body {
       border: 1px solid #2E3545 !important;
 
     }
+
+    .mobile-mode {
+      background-color: var(--gunmetal) !important;
+    }
+
+    .btn-close.zeze {
+      filter: invert(1);
+    }
   }
+}
+
+
+.navbar-toggler {
+  border: none !important;
 }
 
 
