@@ -1,16 +1,25 @@
-export const ContentOne = () => {
+export const ContentOne = ({ isClicked }) => {
 
     return (
 
         <div className="d-flex flex-column align-items-start mt-5  w-100">
-            <div className="content-1 d-flex justify-content-center align-items-center   ">
+            <div className="content-1 d-flex justify-content-center align-items-center d-block d-md-none">
                 <div style={{ padding: "5px 7px" }}>
-                    <img src="left.svg" />
+                    <img src={isClicked ? "leftWhite.svg" : "left.svg"} />
                 </div>
                 <div>
                     <span className="content-1-back">Back</span>
                 </div>
             </div>
+            <div className="content-1 d-flex justify-content-center align-items-center gap-4 d-none d-md-flex">
+                <span className="content-responsive-div">Home</span>
+                <img src="rightGrey.svg" alt="" />
+                <span className="content-responsive-div">Settings</span>
+                <img src="rightGrey.svg" alt="" />
+                <span className="content-responsive-div">General</span>
+                <img src="rightGrey.svg" alt="" />
+            </div>
+
             <div className="d-flex flex-column  flex-sm-row justify-content-between w-100"  >
                 <div className="d-flex flex-column">
                     <span className="content-span-1 mt-1">Hey there, Brian Ford!</span>

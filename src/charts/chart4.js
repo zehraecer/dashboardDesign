@@ -21,8 +21,8 @@ export function renderChart4(elementId) {
             toolbar: {
                 show: false,
             },
-            offsetX: -30,  // X ekseninde konumu ayarlamak için kullanılır
-            offsetY: 0,  // Y ekseninde konumu ayarlamak için kullanılır
+            offsetX: -30,
+            offsetY: 0,
         },
         plotOptions: {
             bar: {

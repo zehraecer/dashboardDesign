@@ -6,12 +6,12 @@ import { ContentSix } from "./ContentSix"
 import { ContentThere } from "./ContentThere"
 import { ContentTwo } from "./ContentTwo"
 
-export const ContainerRight = () => {
+export const ContainerRight = ({ isClicked }) => {
 
     return (
         <div className="content w-100 content-right-mode" >
             <div className=" w-100 ">
-                <ContentOne />
+                <ContentOne isClicked={isClicked} />
             </div>
             <div className=" w-100 ">
                 <ContentTwo />
@@ -24,11 +24,11 @@ export const ContainerRight = () => {
                 <div class="container text-center">
                     <div class="row  justify-content-center align-items-center">
                         <div class="col">
-                            <ContentFive />
+                            <ContentFive isClicked={isClicked} />
 
                         </div>
                         <div class="col">
-                            <ContentSix />
+                            <ContentSix isClicked={isClicked} />
                         </div>
                         <div class="col">
                             <ContentSeven />

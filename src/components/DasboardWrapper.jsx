@@ -38,7 +38,7 @@ export const DashboardWrapper = () => {
                     {showMiddle && <ContainerMiddle />}
                 </div>
                 <div className={`w-100 ${showMiddle ? '' : 'flex-grow-1'} h-100 overflow-auto`}>
-                    <ContainerRight />
+                    <ContainerRight isClicked={isClicked} />
                 </div>
             </div>
         </div>

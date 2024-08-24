@@ -1,6 +1,6 @@
 import { Data2 } from "../data/data2"
 
-export const ContentSix = () => {
+export const ContentSix = ({ isClicked }) => {
 
     return (
         <>
@@ -24,7 +24,7 @@ export const ContentSix = () => {
                                 </div>
                             </div>
                             <div className="d-flex justify-content-center align-items-center gap-2" >
-                                <img src={data.img} alt="" />
+                                <img src={isClicked ? "Icon3.svg" : data.img} alt="" />
                             </div>
                         </div>
                     ))}

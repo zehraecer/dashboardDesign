@@ -177,8 +177,19 @@ body {
       background-color: var(--content-right-light);
 
     }
+
+    .Done {
+      background-color: #5DC264;
+      color: #F0FAF0;
+    }
+
+    .Failed {
+      background-color: #F04438;
+      color: #FFF2F0;
+    }
   }
 }
+
 
 .three-dots {
   font-size: 20px;
@@ -269,8 +280,8 @@ body {
   /* Tam ekran yüksekliği */
 
   img {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
   }
 
   div {
@@ -402,15 +413,27 @@ body {
 .content-1 {
   display: flex;
 
-  span {
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    text-align: left;
-    color: #272D37;
+}
 
-  }
+
+.content-1-back {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #272D37;
+}
+
+.content-responsive-div {
+  color: #A5ACBA;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+
 }
 
 

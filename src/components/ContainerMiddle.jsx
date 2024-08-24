@@ -34,7 +34,7 @@ export const ContainerMiddle = () => {
                             </div>
                         </div>
                         <div>
-                            <span className="rounded-5" style={{ padding: "6px 8px", backgroundColor: "#EFEFF1" }}>6</span>
+                            <span className="rounded-5" style={{ padding: "5px 11px", backgroundColor: "#EFEFF1" }}>6</span>
                         </div>
                     </div>
                     <div className="d-flex  gap-0-75rem justify-content-center paddingb-0-75rem ">

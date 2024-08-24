@@ -3,7 +3,7 @@ import { Data3 } from "../data/data3.js"
 import { Data2 } from "../data/data2"
 
 
-export const ContentFive = () => {
+export const ContentFive = ({ isClicked }) => {
 
     return (
         <>
@@ -27,7 +27,7 @@ export const ContentFive = () => {
                             </div>
                             <div className="d-flex justify-content-center align-items-center gap-2 content-5-label-online" >
                                 <span className={data.class}>{data.class}</span>
-                                <img src="right.svg" alt="" />
+                                <img src={isClicked ? "rightIcon.svg" : "right.svg"} alt="" />
                             </div>
                         </div>
                     ))}
