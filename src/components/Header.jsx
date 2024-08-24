@@ -6,7 +6,7 @@ export const Header = ({ mood, isClicked }) => {
     return (
         <>
 
-            <div className="d-block d-md-none">
+            <div className="d-block d-lg-none">
                 <nav className="navbar bg-body-tertiary fixed-top mobile-mode">
                     <div className="container-fluid">
                         <img src={isClicked ? "lookscout-white.svg" : "Lookscout.svg"} />
