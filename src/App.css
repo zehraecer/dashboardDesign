@@ -17,7 +17,6 @@ body {
 
     .content-right-mode {
       background-color: var(--content-right-dark);
-      /* Light mode için içerik arka plan rengi */
     }
 
     .left-wrapper {
@@ -173,10 +172,10 @@ body {
       color: var(--lightgrey)
     }
 
-    .content-right-mode {
+    /* .content-right-mode {
       background-color: var(--content-right-light);
 
-    }
+    } */
 
     .Done {
       background-color: #5DC264;
