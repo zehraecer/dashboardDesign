@@ -34,7 +34,7 @@ export const DashboardWrapper = () => {
                     <ContainerLeft onLogoClick={handleLogoClick} mood={mood} isClicked={isClicked} />
                 </div>
                 <div className={`d-flex ${showMiddle ? 'flex-grow-1' : ''}  overflow-auto left-heigth`} style={{ transition: 'width 1.3s ease' }}>
-                    {showMiddle && <ContainerMiddle />}
+                    {showMiddle && <ContainerMiddle setShowMiddle={setShowMiddle} showMiddle={showMiddle} />}
                 </div>
                 <div className={`w-100 ${showMiddle ? '' : 'flex-grow-1'} h-100 overflow-auto`}>
                     <ContainerRight isClicked={isClicked} />

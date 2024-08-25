@@ -1,19 +1,23 @@
 import { useEffect } from "react"
 import { renderChart6 } from "../charts/chart6"
 
-export const ContainerMiddle = () => {
+export const ContainerMiddle = ({ setShowMiddle, showMiddle }) => {
 
     useEffect(() => {
 
         renderChart6("cart6")
     }, [])
 
+    const closeDashboard = () => {
+        setShowMiddle(!showMiddle)
+    }
+
     return (
         <div className="d-none d-lg-flex flex-column justify-content-between align-content-between left-heigth middle-mode h-100 " style={{ paddingInline: "28px", }}>
 
             <div >
                 <div className="d-flex flex-column align-items-start" >
-                    <div className="d-flex justify-content-center  gap-0-75rem paddingb-0-75rem">
+                    <div onClick={closeDashboard} style={{ cursor: "pointer" }} className="d-flex justify-content-center  gap-0-75rem paddingb-0-75rem">
                         <img src="arrowleft.svg" alt="" />
                         <span className="container-middle-one" >Lookscout Dashboard</span>
                     </div>
