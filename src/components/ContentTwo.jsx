@@ -17,19 +17,19 @@ export const ContentTwo = () => {
     ]
 
     return (
-        <div className='d-flex flex-wrap cards-wrapper gap-3 justify-content-center w-100'>
+        <div className='d-flex flex-wrap cards-wrapper gap-3'>
             {cardArray.map((card, index) => {
 
                 return (
-                    <div style={{ maxWidth: "327px" }} key={index} className=' cards  col-12  col-md-4 w-100'>
+                    <div key={index} className=' cards  flex-fill'>
                         <div className='d-flex justify-content-between cards-1'>
                             <span className='content-2-name'>{card.name}</span>
                             <div className="three-dots">...</div>
                         </div>
-                        <div className='d-flex  align-items-center'>
+                        <div className='d-flex  align-items-center justify-content-between '>
                             <div >
                                 <span className='cards-span1'> ${card.price}</span>
-                                <div className=' cards-2 w-100'>
+                                <div className=' cards-2 '>
                                     <span style={{ color: `${card.color}`, backgroundColor: `${card.bgColor}` }} className='cards-2-span1'>{card.btn}</span>
                                     <span className='cards-2-span2'>monthly growth</span>
                                 </div>

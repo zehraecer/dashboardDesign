@@ -223,6 +223,27 @@ body.dark-mode {
 }
 
 
+.no-border {
+  border: none !important;
+}
+
+.custom-offcanvas {
+  top: 56px !important;
+  /* Navbar yüksekliği kadar offset (Bootstrap default navbar height: 56px) */
+  height: calc(100vh - 56px);
+  /* Ekran yüksekliğinin geri kalanı */
+}
+
+.offcanvas-backdrop {
+  /* position: static !important;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh; */
+  background-color: transparent !important;
+}
+
 #cart5 {
   border: none;
 }
@@ -516,7 +537,6 @@ body {
 
 
 .cards {
-  max-width: 314px;
   margin-top: 24px;
   padding: 16px 20px 0px 16px;
   border: 1px solid #EAEBF0;
