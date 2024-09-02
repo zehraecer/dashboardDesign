@@ -365,10 +365,19 @@ body {
 
 }
 
+.middle-hover {
+  cursor: pointer;
+}
+
+.middle-hover:hover {
+  border-left: 2px solid #437EF7;
+  background-color: #F3F9FE;
+  color: #437EF7;
+}
 
 .middle-div1 {
   margin-top: 32px;
-  padding: 12px;
+  padding: 5px 16px;
   background-color: #F8F9FB;
   box-shadow: 0px 1px 2px 0px #1018280A;
   border-radius: 10px;
@@ -681,7 +690,6 @@ body {
 
 .content-5 {
   width: 302px;
-  margin-top: 24px;
   padding: 16px 20px;
   border: 1px solid #EAEBF0;
   box-shadow: 0px 1px 2px 0px #1018280A;
@@ -726,7 +734,7 @@ body {
 
 .content-5-2 {
 
-  gap: 10px;
+  gap: 5px;
 }
 
 

@@ -22,7 +22,7 @@ export const ContainerRight = ({ isClicked }) => {
             <div className=" w-100" >
                 <ContentFour />
                 <div class="container text-center">
-                    <div class="row  justify-content-center align-items-center gap-2">
+                    <div class="row  justify-content-center align-items-center gap-2" style={{ marginTop: "24px" }}>
                         <div class="col" style={{ paddingRight: "0", paddingLeft: "0" }}>
                             <ContentFive isClicked={isClicked} />
                         </div>

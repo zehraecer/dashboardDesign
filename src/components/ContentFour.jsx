@@ -1,7 +1,7 @@
 export const ContentFour = () => {
 
     return (
-        <div className="d-flex flex-column flex-sm-row justify-content-between align-items-start content-4 w-100 ">
+        <div className="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center content-4 w-100">
             <span className="content-4-span1  ">Brian Ford</span>
             <div className="d-flex justify-content-between mt-1 d-flex-responsive ">
                 <div className="d-flex gap-1">
