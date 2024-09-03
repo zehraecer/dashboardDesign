@@ -884,15 +884,18 @@ body {
   background-color: #FFF2F0;
 }
 
+.nav-item {
+  margin-top: 15px;
+}
 
 .dropdown-span {
-  font-family: Inter;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 22px;
-  letter-spacing: -0.10000000149011612px;
-  text-align: left;
-  color: #5F6D7E;
+  font-family: Inter !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  line-height: 22px !important;
+  letter-spacing: -0.10000000149011612px !important;
+  text-align: left !important;
+  color: #5F6D7E !important;
 
 }
 

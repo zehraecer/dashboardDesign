@@ -17,17 +17,28 @@ export const DashboardWrapper = () => {
     }
 
     useEffect(() => {
+        const saveDarkMode = localStorage.getItem("darkMode")
+        if (saveDarkMode === "true") {
+            setisClicked(true)
+            document.body.classList.add("dark-mode")
+        }
+    }, [])
+
+    useEffect(() => {
 
         if (isClicked) {
             document.body.classList.add('dark-mode');
+            localStorage.setItem("darkMode", "true")
         } else {
             document.body.classList.remove('dark-mode');
+            localStorage.setItem("darkMode", "false")
         }
     }, [isClicked]);
 
+
+
     // const handleLogoClick = () => {
     //     setShowMiddle(!showMiddle);
-
 
     // };
 
