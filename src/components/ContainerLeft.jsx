@@ -3,7 +3,7 @@ export const ContainerLeft = ({ mood, isClicked, MiddleOneClick, MiddleTwoClick,
 
         <div className="d-none d-flex flex-column justify-content-between align-content-between container-left gap-1 d-lg-flex left-heigth middle-mode h-100">
             <div className="d-flex flex-column justify-content-center align-content-center">
-                <div><img style={{ width: "40px", height: "40px", cursor: "pointer" }} src={isClicked ? "logo2.svg" : "logoIcon.svg"} onClick={MiddleOneClick} /></div>
+                <div><img style={{ width: "40px", height: "40px", cursor: "pointer" }} src={isClicked ? "logoWhite.svg" : "logoIcon.svg"} onClick={MiddleOneClick} /></div>
                 <div><img role="button" onClick={MiddleSearchClick} src="search.svg" alt="" /></div>
                 <div><img role="button" onClick={MiddleOneClick} src="horizontal.svg" alt="" /></div>
                 <div> <img role="button" onClick={MiddleTwoClick} src="calendar.svg" alt="" /></div>

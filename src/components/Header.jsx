@@ -9,7 +9,7 @@ export const Header = ({ mood, isClicked }) => {
                         <div className="d-flex justify-content-center align-items-center gap-3 ">
                             <div>
                                 <div className="d-flex justify-content-center align-items-center gap-3">
-                                    <img onClick={mood} src={isClicked ? "sun2.svg" : "moon.svg"} alt="" />
+                                    <img style={{ width: "24px", height: "24px" }} onClick={mood} src={isClicked ? "sun2.svg" : "moon.svg"} alt="" />
                                     <button
                                         className="navbar-toggler"
                                         type="button"
@@ -28,7 +28,7 @@ export const Header = ({ mood, isClicked }) => {
                                     <img src="Avatar1.svg" alt="" />
                                     <span className="middle-span-3">Brian Ford</span>
                                 </div>
-                                    <img style={{ width: "20px", height: "20px" }} data-bs-dismiss="offcanvas" src="right-long.svg" alt="" />
+                                    <img style={{ width: "20px", height: "20px" }} data-bs-dismiss="offcanvas" src={isClicked ? "right-darkmode.svg" : "right-long.svg"} alt="" />
                                 </h5>
 
                             </div>
@@ -38,61 +38,61 @@ export const Header = ({ mood, isClicked }) => {
                                         <li class="nav-item dropdown ">
                                             <a class="nav-link  d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <div>
-                                                    <img style={{ width: "21px", height: "20px", marginRight: "10px" }} src="horizontal.svg" /> Dashboard
+                                                    <img style={{ width: "21px", height: "20px", marginRight: "10px" }} src="horizontal.svg" /> <span className="dropdown-span">Dashboard</span>
                                                 </div>
-                                                <img src="downArrow.svg" alt="" />
+                                                <img src={isClicked ? "down-grey.svg" : "downArrow.svg"} alt="" />
                                             </a>
                                             <ul class="dropdown-menu no-border" style={{ marginLeft: "25px" }}>
-                                                <li className="d-flex justify-content-center align-items-center mt-4"><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /><a class="dropdown-item" href="#">General</a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-4"><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /><a class="dropdown-item" href="#">Messages</a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-4"><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /><a class="dropdown-item" href="#">Events & Logs</a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-4"><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /><a class="dropdown-item" href="#">Organization</a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-4"><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /><a class="dropdown-item" href="#">Action</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-4"><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /><a class="dropdown-item dropdown-span" href="#">General</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-4"><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /><a class="dropdown-item dropdown-span" href="#">Messages</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-4"><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /><a class="dropdown-item dropdown-span" href="#">Events & Logs</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-4"><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /><a class="dropdown-item dropdown-span" href="#">Organization</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-4"><img style={{ width: "21px", height: "20px" }} src="horizontal.svg" /><a class="dropdown-item dropdown-span" href="#">Action</a></li>
                                             </ul>
                                         </li>
                                         <li class="nav-item dropdown ">
                                             <a class="nav-link d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <div>
-                                                    <img style={{ width: "21px", height: "20px", marginRight: "10px" }} src="calendar.svg" /> Date
+                                                    <img style={{ width: "21px", height: "20px", marginRight: "10px" }} src="calendar.svg" /> <span className="dropdown-span">Date</span>
                                                 </div>
-                                                <img src="downArrow.svg" alt="" />
+                                                <img src={isClicked ? "down-grey.svg" : "downArrow.svg"} alt="" />
                                             </a>
                                             <ul class="dropdown-menu no-border" style={{ marginLeft: "25px" }}>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Monthly View</a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Weekly View </a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Daily View</a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Events</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Monthly View</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Weekly View </a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Daily View</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Events</a></li>
                                             </ul>
                                         </li>
                                         <li class="nav-item dropdown ">
                                             <a class="nav-link  d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <div>
-                                                    <img style={{ width: "21px", height: "20px", marginRight: "10px" }} src="alt.svg" /> Section
+                                                    <img style={{ width: "21px", height: "20px", marginRight: "10px" }} src="alt.svg" /><span className="dropdown-span">Section</span>
                                                 </div>
-                                                <img src="downArrow.svg" alt="" />
+                                                <img src={isClicked ? "down-grey.svg" : "downArrow.svg"} alt="" />
                                             </a>
                                             <ul class="dropdown-menu no-border" style={{ marginLeft: "25px" }}>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Bar Charts</a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Sales Data </a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Performance Metrics</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Bar Charts</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Sales Data </a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Performance Metrics</a></li>
                                             </ul>
                                         </li>
                                         <li class="nav-item dropdown ">
                                             <a class="nav-link  d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <div>
-                                                    <img style={{ width: "21px", height: "20px", marginRight: "10px" }} src="settings.svg" /> Settings
+                                                    <img style={{ width: "21px", height: "20px", marginRight: "10px" }} src="settings.svg" /><span className="dropdown-span">Settings</span>
                                                 </div>
-                                                <img src="downArrow.svg" alt="" />
+                                                <img src={isClicked ? "down-grey.svg" : "downArrow.svg"} alt="" />
                                             </a>
                                             <ul class="dropdown-menu no-border" style={{ marginLeft: "25px" }}>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Account Settings</a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Privacy Settings</a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Notification Settings</a></li>
-                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item" href="#">Language & Region</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Account Settings</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Privacy Settings</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Notification Settings</a></li>
+                                                <li className="d-flex justify-content-center align-items-center mt-2"><a class="dropdown-item dropdown-span" href="#">Language & Region</a></li>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#" data-bs-dismiss="offcanvas">  <img style={{ width: "21px", height: "20px", marginRight: "10px" }} src="icon2.svg" /> Out</a>
+                                            <a class="nav-link active" aria-current="page" href="#" data-bs-dismiss="offcanvas">  <img style={{ width: "21px", height: "20px", marginRight: "10px" }} src="icon2.svg" /> <span className="dropdown-span">Out</span> </a>
                                         </li>
                                     </ul>
                                 </div>

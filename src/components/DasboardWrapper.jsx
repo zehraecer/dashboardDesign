@@ -100,7 +100,7 @@ export const DashboardWrapper = () => {
             <Header mood={mood} isClicked={isClicked} />
             <div className="d-flex flex-grow-1 overflow-hidden h-100">
                 <div className='left-wrapper h-100'>
-                    <ContainerLeft mood={mood} MiddleOneClick={MiddleOneClick} MiddleTwoClick={MiddleTwoClick} MiddleThereClick={MiddleThereClick} MiddleSearchClick={MiddleSearchClick} />
+                    <ContainerLeft mood={mood} isClicked={isClicked} MiddleOneClick={MiddleOneClick} MiddleTwoClick={MiddleTwoClick} MiddleThereClick={MiddleThereClick} MiddleSearchClick={MiddleSearchClick} />
                 </div>
                 <div className={`d-flex ${showMiddle ? 'flex-grow-1' : ''}  overflow-auto left-heigth`} style={{ transition: 'width 1.3s ease' }}>
                     {showMiddle && <ContainerMiddle setShowMiddle={setShowMiddle} showMiddle={showMiddle} middleOne={middleOne} middleTwo={middleTwo} middleThere={middleThere} />}

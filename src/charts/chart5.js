@@ -4,16 +4,15 @@ export function renderChart5(elementId) {
     const options = {
         series: [{
             name: 'interfaces',
-            data: [7, 5, 1, 67, 22, 43, 21, 49, 58, 47, 52, 69]
+            data: [27, 5, 40, 45, 8, 63, 41, 19, 28, 23, 15, 59]
         }, {
             name: 'build-ups',
-            data: [4, 23, 1, 8, 13, 27, 33, 12, 44, 55, 41, 67]
+            data: [14, 23, 36, 40, 5, 60, 35, 8, 14, 12, 7, 47]
         }],
         chart: {
             type: 'bar',
             height: 350,
-            stacked: true,
-            stackType: '100%',
+            stacked: true, // Bu özellik kalıyor ama stackType kaldırıldı
             toolbar: {
                 show: false
             }
@@ -37,13 +36,11 @@ export function renderChart5(elementId) {
         },
         yaxis: {
             min: 0,
-            max: 60,
-            tickAmount: 4,
+            max: 100, // Y eksenini genişlettik
+            tickAmount: 4, // Y ekseninde 5 tane aralık olacak
             labels: {
                 formatter: function (value) {
-                    const customLabels = ['0%', '25%', '50%', '75%', '100%'];
-                    const index = Math.round((value / 100) * 4);
-                    return customLabels[index] || '';
+                    return value.toString();
                 },
                 style: {
                     colors: '#a5acba',

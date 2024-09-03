@@ -200,6 +200,19 @@ body.dark-mode {
   .btn-close.zeze {
     filter: invert(1);
   }
+
+  .dropdown-span {
+    color: #A5ACBA;
+  }
+
+  .general {
+    color: #A5ACBA;
+  }
+
+  .dropdown-menu {
+    background-color: var(--gunmetal);
+  }
+
 }
 
 
@@ -872,7 +885,16 @@ body {
 }
 
 
+.dropdown-span {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5F6D7E;
 
+}
 
 @media (max-width < 1024px) {
   .cards {
