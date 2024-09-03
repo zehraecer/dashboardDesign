@@ -27,7 +27,7 @@ export const ContainerMiddle = ({ setShowMiddle, showMiddle, middleOne, middleTw
 
             <div >
                 <div className="d-flex flex-column align-items-start" >
-                    <div onClick={closeDashboard} style={{ cursor: "pointer", paddingInline: "28px" }} className="d-flex justify-content-center  gap-0-75rem paddingb-0-75rem" >
+                    <div onClick={closeDashboard} style={{ cursor: "pointer", paddingInline: "28px", marginTop: "16px" }} className="d-flex justify-content-center  gap-0-75rem paddingb-0-75rem" >
                         <img src="arrowleft.svg" alt="" />
                         <span className="container-middle-one" >Lookscout Dashboard</span>
                     </div>
