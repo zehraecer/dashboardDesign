@@ -11,9 +11,9 @@ export const ContentTwo = () => {
     }, []);
 
     const cardArray = [
-        { name: "Revenue", price: "390", btn: "New", cartId: "cart1", color: "#437EF7", bgColor: "#F5FAFF" },
-        { name: "Expenses", price: "680", btn: "one-to-one", cartId: "cart2", color: "#E2341D", bgColor: "#FFF2F0" },
-        { name: "Expenses", price: "680", btn: "synergistic", cartId: "cart3", color: "#2D8A39", bgColor: "#F0FAF0" }
+        { name: "Revenue", price: "390", btn: "New", cartId: "cart1", class: "revenuClass" },
+        { name: "Expenses", price: "680", btn: "one-to-one", cartId: "cart2", class: "expensesClass" },
+        { name: "Expenses", price: "680", btn: "synergistic", cartId: "cart3", class: "expenses2Class" }
     ]
 
     return (
@@ -30,7 +30,7 @@ export const ContentTwo = () => {
                             <div >
                                 <span className='cards-span1'> ${card.price}</span>
                                 <div className=' cards-2 '>
-                                    <span style={{ color: `${card.color}`, backgroundColor: `${card.bgColor}` }} className='cards-2-span1'>{card.btn}</span>
+                                    <span className={`cards-2-span1 ${card.class}`}>{card.btn}</span>
                                     <span className='cards-2-span2'>monthly growth</span>
                                 </div>
                             </div>
@@ -39,6 +39,6 @@ export const ContentTwo = () => {
                     </div>
                 )
             })}
-        </div>
+        </div >
     );
 };

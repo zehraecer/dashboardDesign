@@ -213,6 +213,21 @@ body.dark-mode {
     background-color: var(--gunmetal);
   }
 
+  .revenuClass {
+    background-color: #5390F8;
+    color: #fff;
+  }
+
+  .expensesClass {
+    background-color: #F04438;
+    color: #fff;
+  }
+
+  .expenses2Class {
+    background-color: #5DC264;
+    color: #fff;
+  }
+
 }
 
 
@@ -264,6 +279,21 @@ body.dark-mode {
 .list-inline-item {
 
   padding: 9px 16px;
+}
+
+.revenuClass {
+  background-color: #F5FAFF;
+  color: #437EF7;
+}
+
+.expensesClass {
+  color: #E2341D;
+  background-color: #FFF2F0;
+}
+
+.expenses2Class {
+  background-color: #F0FAF0;
+  color: #2D8A39;
 }
 
 html,

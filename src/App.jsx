@@ -10,7 +10,6 @@ function App() {
     < >
       <div className='w-100' >
         <DashboardWrapper />
-
       </div>
     </>
   )

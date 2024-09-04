@@ -36,14 +36,12 @@ export const ContainerMiddle = ({ setShowMiddle, showMiddle, middleOne, middleTw
                         <div><img style={{ width: "16.5px", height: "16.5px" }} src="search.svg" alt="" /></div>
                         <div><input className="form-one-1" style={{ width: "206px", height: "20px" }} type="text" placeholder="Search here..." /></div>
                     </div>
-
                     {middleOne && <MiddleOne middleActive={middleActive} ActiveClick={ActiveClick} />}
                     {middleTwo && <MiddleTwo middleActive={middleActive} ActiveClick={ActiveClick} />}
                     {middleThere && <MiddleThere middleActive={middleActive} ActiveClick={ActiveClick} />}
                     {middleFour && <MiddleFour middleActive={middleActive} ActiveClick={ActiveClick} />}
                 </div>
             </div>
-
             <div className="d-flex flex-column pt-3 " style={{ paddingInline: "28px" }}>
                 <div className="d-flex justify-content-between align-items-center w-100">
 
