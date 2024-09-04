@@ -3,8 +3,9 @@ import { renderChart6 } from "../charts/chart6"
 import { MiddleOne } from "./MiddleOne"
 import { MiddleThere } from "./MiddleThere"
 import { MiddleTwo } from "./MiddleTwo"
+import { MiddleFour } from "./MiddleFour"
 
-export const ContainerMiddle = ({ setShowMiddle, showMiddle, middleOne, middleTwo, middleThere }) => {
+export const ContainerMiddle = ({ setShowMiddle, showMiddle, middleOne, middleTwo, middleThere, middleFour }) => {
 
     const [middleActive, setMiddleActive] = useState(false)
     useEffect(() => {
@@ -39,6 +40,7 @@ export const ContainerMiddle = ({ setShowMiddle, showMiddle, middleOne, middleTw
                     {middleOne && <MiddleOne middleActive={middleActive} ActiveClick={ActiveClick} />}
                     {middleTwo && <MiddleTwo middleActive={middleActive} ActiveClick={ActiveClick} />}
                     {middleThere && <MiddleThere middleActive={middleActive} ActiveClick={ActiveClick} />}
+                    {middleFour && <MiddleFour middleActive={middleActive} ActiveClick={ActiveClick} />}
                 </div>
             </div>
 

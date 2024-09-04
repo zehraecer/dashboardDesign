@@ -241,7 +241,7 @@ body.dark-mode {
 }
 
 .custom-offcanvas {
-  top: 56px !important;
+  top: 49.5px !important;
   /* Navbar yüksekliği kadar offset (Bootstrap default navbar height: 56px) */
   height: calc(100vh - 56px);
   /* Ekran yüksekliğinin geri kalanı */
